@@ -1,8 +1,8 @@
-Feature: Select the first Car
+Feature: The First Car Selection
 
-  Scenario: User selecting the first car after filtered
+  Scenario: Selecting the first car
 
-    Given user is on landing page to select
-    And User selects the first car in the list and verify the selected car title is present
-    Then User selects Pickup location
-    And User clicks on Continue button
+    Given User is on landing page
+    When  Selects the first car in the list
+    And   Selects Pickup location
+    Then  Clicks on Continue button
